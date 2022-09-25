@@ -1,4 +1,5 @@
 body {
+    background-image: url("../images/bg-pattern-top.svg,"), url("../images/bg-pattern-bottom.svg");
     background-color: hsl(185, 75%, 39%);
     display: flex;
     justify-content: center;
@@ -29,14 +30,9 @@ main {
 }
 
 h1 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 0%;
-}
-
-h2 {
     font-size: 1.2rem;
     font-weight: 700;
+    margin: 0%;
 }
 
 .info {
@@ -55,10 +51,12 @@ h2 {
 
 span {
     color: hsl(227, 10%, 46%);
+    font-weight: 400;
 }
 
 .location {
-    margin: auto;
+    font-weight: 500;
+    margin-top: 0.7rem;
 }
 
 .stats {
@@ -73,10 +71,14 @@ aside {
 }
 
 aside p {
+    font-size: 0.8rem;
+    font-weight: 500;
     margin: 0%;
 }
 
 h2 {
+    font-size: 0.5rem;
+    font-weight: 700;
     display: flex;
     font-size: 1.3rem;
     font-weight: 700;
@@ -89,7 +91,7 @@ p {
 }
 
 hr {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     border: s;
 }
 
