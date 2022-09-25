@@ -1,0 +1,96 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans';
+}
+
+main {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 21.9rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: hsl(229, 23%, 23%);
+    position: relative;
+    top: 9rem;
+}
+
+.user-img {
+    border: 0.4rem solid #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    width: 96px;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.info {
+    padding: 0 2rem 2rem 2rem;
+    height: 7rem;
+    position: relative;
+    bottom: 2.2rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: hsl(227, 10%, 46%);
+}
+
+.location {
+    margin: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+aside {
+    margin: 0 1.5rem;
+}
+
+aside p {
+    margin: 0%;
+}
+
+h2 {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 700;
+    flex-direction: column;
+    margin: 0%;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    margin: 2rem 0;
+    border: s;
+}
+
+
